@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">eMedic</string>
+    <string name="prompt_email">\u0020 Email</string>
+    <string name="register">Register</string>
+    <string name="sign_in">Sign In</string>
+    <string name="password">\u0020 Password</string>
+    <string name="email_registration">Email Registration</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="action_profile_pic">Upload picture</string>
+    <string name="action_edit_profile">edit</string>
+    <string name="action_back">Return back</string>
+
+    <string name="sun">Sunday</string>
+    <string name="mon">Monday</string>
+
+    <string-array name="english_week_string_array">
+        <item>Ned</item>
+        <item>Pon</item>
+        <item>Tor</item>
+        <item>Sre</item>
+        <item>Čet</item>
+        <item>Pet</item>
+        <item>Sob</item>
+    </string-array>
+
+    <string name="list_dialog_title">Dynamic Update</string>
+
+    <string name="func_dialog_title">Function</string>
+
+    <string-array name="list_dialog_items">
+        <item>Change week start with sun</item>
+        <item>Change week start with mon</item>
+        <item>Change week start with sat</item>
+        <item>Change select mode：single/default</item>
+        <item>Change month and week view with CustomView</item>
+        <item>MonthViewShowMode：all</item>
+        <item>MonthViewShowMode：only_current</item>
+        <item>MonthViewShowMode：fix</item>
+    </string-array>
+
+    <string-array name="func_dialog_items">
+        <item>Expand CalendarLayout</item>
+        <item>Shrink CalendarLayout</item>
+        <item>scrollToPre</item>
+        <item>scrollToNext</item>
+        <item>scrollToCurrent</item>
+        <item>Limit calendar range</item>
+        <item>Show range</item>
+    </string-array>
+
+    <!-- OSEBE (STATIČNO!!!!) -->
+    <string name="p1">Bobo Smrade</string>
+    <string name="p1_age">22</string>
+    <string name="p1_desc">Ponovni pregled za kurje oko</string>
+
+    <string name="p2">Janez Novak</string>
+    <string name="p2_age">27</string>
+    <string name="p2_desc">Odvzem krvi (sum na virozo)</string>
+
+    <string name="p3">Jože Žnidaršič</string>
+    <string name="p3_age">55</string>
+    <string name="p3_desc">Pregled urina (problemi z mehurjem)</string>
+
+    <string name="n1">Timi Hutavec</string>
+    <string name="n1_age">19</string>
+    <string name="n1_desc">Pojavila se mi je čudna črna pika na levem stegnu</string>
+
+    <string name="n2">Janko Medved</string>
+    <string name="n2_age">63</string>
+    <string name="n2_desc">Vmesni pregled in ponovna izdaja tablet</string>
+
+    <string name="n3">Neža Junež</string>
+    <string name="n3_age">31</string>
+    <string name="n3_desc">Posvetovanje o kontracepciji</string>
+
+    <string name="op1">Jožko Jarc</string>
+    <string name="op1_age">20</string>
+    <string name="op1_desc">Danes zadnja vnešena telesna temperatura: 38°C (za 1°C manj od včeraj) </string>
+
+    <string name="op2">Jože Žnidaršič</string>
+    <string name="op2_age">24</string>
+    <string name="op2_desc">Tedensko vnešena tekočina: 12L (za 2L več od prejšnjega)</string>
+
+    <string name="op3">Ana Sera</string>
+    <string name="op3_age">69</string>
+    <string name="op3_desc">Današnji krvni pritisk: 150/85 mmHg (za 20 višja od včeraj)</string>
+
+    <string name="blood_sugar"><![CDATA[Blood & Sugar]]></string>
+    <string name="blood_sugar_description"><![CDATA[Check and monitor your blood pressure & sugar levels]]></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

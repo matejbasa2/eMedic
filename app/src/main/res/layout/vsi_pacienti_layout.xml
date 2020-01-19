@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_white_mol"
+    tools:context="com.example.emedic.Doctor.VsiPacienti"
+    android:orientation="vertical"
+    >
+
+  <include
+      layout="@layout/vsi_pacienti_toolbar_layout"/>
+
+  <com.google.android.material.tabs.TabLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/tabs"
+      android:background="@color/colorSecondaryLight"
+      android:elevation="5dp"
+      android:minHeight="?attr/actionBarSize"
+      app:tabMode="fixed"
+      app:tabGravity="fill"
+      app:tabTextColor="@color/colorSecondaryDark"
+    />
+
+  <androidx.viewpager.widget.ViewPager
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/pacienti_pager"/>
+
+
+
+</LinearLayout>

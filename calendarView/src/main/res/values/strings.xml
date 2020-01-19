@@ -1,0 +1,197 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="cv_app_name" translatable="false">CalendarView</string>
+    <string-array name="lunar_first_of_month">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>Maj</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Okt</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+    <string-array name="tradition_festival">
+        <item>除夕</item>
+        <item>0101春节</item>
+        <item>0115元宵</item>
+        <item>0505端午</item>
+        <item>0707七夕</item>
+        <item>0815中秋</item>
+        <item>0909重阳</item>
+    </string-array>
+
+    <string-array name="lunar_str">
+        <item>Prvi</item>
+        <item>Drugi</item>
+        <item>Tretji</item>
+        <item>Četrti</item>
+        <item>Peti</item>
+        <item>Šesti</item>
+        <item>Sedmi</item>
+        <item>Osmi</item>
+        <item>Deveti</item>
+        <item>Deseti</item>
+        <item>Enajsti</item>
+        <item>Dvanajsti</item>
+        <item>Trinajsti</item>
+        <item>Štirinajsti</item>
+        <item>十五</item>
+        <item>十六</item>
+        <item>十七</item>
+        <item>十八</item>
+        <item>十九</item>
+        <item>二十</item>
+        <item>廿一</item>
+        <item>廿二</item>
+        <item>廿三</item>
+        <item>廿四</item>
+        <item>廿五</item>
+        <item>廿六</item>
+        <item>廿七</item>
+        <item>廿八</item>
+        <item>廿九</item>
+        <item>三十</item>
+    </string-array>
+
+    <string-array name="prazniki" tools:ignore="InconsistentArrays">
+        <item>0101Novo leto</item>
+        <item>0214Valentinovo</item>
+        <item>0308Dan žena</item>
+        <item>0401Prvi april</item>
+        <item>0422Dan zemlje</item>
+        <item>0501Dan dela</item>
+        <item>0504Dan mladosti</item>
+        <item>0601Dan otrok</item>
+        <item>0910Dan učiteljev</item>
+        <item>1031Noč čarovnic</item>
+        <item>1111Dan samskih</item>
+        <item>1224Božični večer</item>
+        <item>1225Božič</item>
+    </string-array>
+
+    <string-array name="solar_term">
+        <item>Pomlad</item>
+        <item>Začetek poletja</item>
+        <item>Poletni solsticij</item>
+        <item>Veliko poletje</item>
+        <item>Začetek jeseni</item>
+        <item>Začetek zime</item>
+        <item>Lahek sneg</item>
+        <item>Težek sneg</item>
+        <item>Zimski solsticij</item>
+        <item>Začetek pomladi</item>
+        <item>Dež</item>
+    </string-array>
+
+    <string-array name="special_festivals">
+        <item>Materinski dan</item>
+        <item>Dan očetov</item>
+        <item>Velika noč</item>
+    </string-array>
+
+    <string name="sun" translatable="false">Ned</string>
+    <string name="mon" translatable="false">Pon</string>
+    <string name="tue" translatable="false">Tor</string>
+    <string name="wed" translatable="false">Sre</string>
+    <string name="thu" translatable="false">Čet</string>
+    <string name="fri" translatable="false">Pet</string>
+    <string name="sat" translatable="false">Sob</string>
+
+    <string-array name="week_string_array">
+        <item>Ned</item>
+        <item>Pon</item>
+        <item>Tor</item>
+        <item>Sre</item>
+        <item>Čet</item>
+        <item>Pet</item>
+        <item>Sob</item>
+    </string-array>
+
+    <string-array name="year_view_week_string_array">
+        <item>Ne</item>
+        <item>Po</item>
+        <item>To</item>
+        <item>Sr</item>
+        <item>Če</item>
+        <item>Pe</item>
+        <item>So</item>
+    </string-array>
+
+    <string-array name="month_string_array">
+        <item>JAN</item>
+        <item>FEB</item>
+        <item>MAR</item>
+        <item>APR</item>
+        <item>MAJ</item>
+        <item>JUN</item>
+        <item>JUL</item>
+        <item>AUG</item>
+        <item>SEP</item>
+        <item>OKT</item>
+        <item>NOV</item>
+        <item>DEC</item>
+    </string-array>
+
+    <integer-array name="trunk_integer_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+    </integer-array>
+
+    <string-array name="trunk_string_array">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+        <item>i</item>
+        <item>j</item>
+    </string-array>
+
+    <integer-array name="branch_integer_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </integer-array>
+
+    <string-array name="branch_string_array">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+        <item>i</item>
+        <item>j</item>
+        <item>k</item>
+        <item>l</item>
+
+    </string-array>
+</resources>

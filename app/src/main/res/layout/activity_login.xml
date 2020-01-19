@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bcg"
+    >
+
+    <ImageView
+        android:id="@+id/main_backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_white_mol"/>
+
+    <ImageView
+        android:id="@+id/pill"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/login_form"
+        app:srcCompat="@mipmap/ic_pills_foreground"/>
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:id="@+id/logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logoView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleX="2"
+                android:scaleY="2"
+                android:layout_gravity="left"
+                app:srcCompat="@mipmap/emedic_logo_foreground" />
+
+
+
+            </LinearLayout>
+
+
+            <AutoCompleteTextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_bold"
+                android:layout_marginTop="20dp"
+                android:elevation="5dp"
+                android:background="@drawable/log_in_text_bck"
+                android:hint= "@string/prompt_email"
+                android:textColorHint="@color/colorSecondary"
+                android:textAlignment="viewStart"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:drawableStart="@drawable/user_login"
+                android:layout_gravity="start"
+                android:drawableLeft="@drawable/user_login" />
+
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="5dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/montserrat_bold"
+                android:textAlignment="viewStart"
+                android:drawableStart="@drawable/pass_login"
+                android:hint= " @string/password"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorSecondary"
+                android:background="@drawable/log_in_text_bck"
+                android:layout_marginTop="20dp"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:layout_gravity="start"
+                android:drawableLeft="@drawable/pass_login" />
+
+            <Button
+                android:id="@+id/email_sign_in_button"
+                android:elevation="5dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="@string/sign_in"
+                android:textSize="25sp"
+                android:fontFamily="@font/montserrat_bold"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/theme_button"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:id="@+id/relLayout1">
+
+
+                <TextView android:id="@+id/link_register"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:elevation="5dp"
+                    android:text="@string/register"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#FFFFFF"
+                    android:textAllCaps="false"
+                    android:background="@drawable/theme_button"
+                    android:layout_centerHorizontal="true"/>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

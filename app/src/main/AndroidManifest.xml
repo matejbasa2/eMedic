@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.emedic">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/emedic_logo"
+        android:label="@string/app_name"
+        android:hardwareAccelerated="true"
+        android:roundIcon="@mipmap/emedic_logo"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Doctor.VsiPacienti"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".login.LoginActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".register.RegisterActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Pacient.PacientPanel"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Doctor.DoctorPanel"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Doctor.DoctorProfile"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Doctor.DoctorPanelSettings"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".CustomMonthActivity"
+            android:theme="@style/CalendarTheme" />
+        <activity android:name=".base.activity.BaseActivity"
+            android:theme="@style/CalendarTheme" />
+        <activity android:name=".BloodSugarLevels"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Pacient.PacientKartoteka"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".DisplayRecord"
+            android:theme="@style/AppTheme"/>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.emedic.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

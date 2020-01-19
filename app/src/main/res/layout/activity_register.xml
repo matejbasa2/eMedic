@@ -1,0 +1,177 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bcg"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relLayout1"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email_registration"
+                    android:textColor="@color/White"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:layout_centerHorizontal="true"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/textReg"/>
+
+
+                <EditText
+                    android:id="@+id/input_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textReg"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/log_in_text_bck"
+                    android:drawableStart="@drawable/user_login"
+                    android:drawableLeft="@drawable/user_login"
+                    android:fontFamily="@font/montserrat_medium_italic"
+                    android:hint="Name"
+                    android:textColor="@color/backgroundcolor"
+                    android:textColorHint="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/input_surname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/input_name"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/log_in_text_bck"
+                    android:drawableStart="@drawable/user_login"
+                    android:drawableLeft="@drawable/user_login"
+                    android:fontFamily="@font/montserrat_medium_italic"
+                    android:hint="Surname"
+                    android:textColor="@color/backgroundcolor"
+                    android:textColorHint="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/input_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/input_surname"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/log_in_text_bck"
+                    android:drawableStart="@drawable/user_login"
+                    android:drawableLeft="@drawable/user_login"
+                    android:fontFamily="@font/montserrat_medium_italic"
+                    android:hint="@string/prompt_email"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/backgroundcolor"
+                    android:textColorHint="#FFFFFF" />
+
+                <EditText
+                    android:id="@+id/input_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/input_email"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/log_in_text_bck"
+                    android:drawableStart="@drawable/pass_login"
+                    android:drawableLeft="@drawable/pass_login"
+                    android:fontFamily="@font/montserrat_medium_italic"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/backgroundcolor"
+                    android:textColorHint="#FDFDFD" />
+
+                <EditText
+                    android:id="@+id/input_confirm_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/input_password"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/log_in_text_bck"
+                    android:drawableStart="@drawable/pass_login"
+                    android:drawableLeft="@drawable/pass_login"
+                    android:fontFamily="@font/montserrat_medium_italic"
+                    android:hint="@string/confirm_password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/backgroundcolor"
+                    android:textColorHint="#FFFFFF" />
+
+
+                <LinearLayout
+                    android:id="@+id/linLayout_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/input_confirm_password"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Pacient" />
+
+                    <Switch
+                        android:id="@+id/PDswitch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Doktor" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50" />
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_register"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linLayout_1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/theme_button"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="@string/register"
+                    android:textAllCaps="false"
+                    android:textColor="@color/White"
+                    android:textSize="25sp" />
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:visibility="invisible"/>
+
+</RelativeLayout>
